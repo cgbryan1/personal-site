@@ -1,7 +1,14 @@
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFF3C7;
+}
+
 p {
     /* should apply to all my paragraphs */
     color: black;
     font-size: 20px;
+    font-weight: 100;
 }
 
 img {
@@ -9,23 +16,18 @@ img {
 }
 
 h1 {
-    color: #EB5A3C;
+    color: #F7418F;
     font-size: 70px;
     text-align: left;
 }
 
-.short-bio{
-    color: #DF9755;
-    font-size: 30px;
-    text-align: left;
-}
 
 h4 {
-    color: #EB5A3C;
+    color: #F7418F;
     font-size: 50px;
 }
 h5 {
-    color: #E7D283;
+    color: #FC819E;
     font-size: 40px;
 }
 
@@ -45,16 +47,26 @@ h5 {
 #flex-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 40px 10px 40px;
+
 }
-#flex-col{
+#flex-col p{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+ul li {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
 }
 
+/* practice ul child thing here! */
 
-/* light yellow/green: EDF4C2 */
-/* light yellow: E7D283 */
-/* light orange: DF9755*/
-/* dark orange: EB5A3C */
-
-/* chosen color palette: https://colorhunt.co/palette/eb5a3cdf9755e7d283edf4c2 */
+/* chosen color palette: https://colorhunt.co/palette/fff3c7fec7b4fc819ef7418f */
