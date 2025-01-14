@@ -1,37 +1,54 @@
 p {
     /* should apply to all my paragraphs */
     color: black;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 50%;
 }
 
 h1 {
-    color: EB5A3C;
-    font-size: 100px;
+    color: #EB5A3C;
+    font-size: 70px;
     text-align: left;
 }
 
 .short-bio{
-    color: DF9755;
+    color: #DF9755;
     font-size: 30px;
     text-align: left;
 }
 
 h4 {
-    color: EB5A3C;
+    color: #EB5A3C;
     font-size: 50px;
 }
+h5 {
+    color: #E7D283;
+    font-size: 40px;
+}
+
 
 .div-left {
-    margin: 20px;
+    margin: 10px;
     text-align: left;
 }
 .div-right {
-    margin: 20px;
+    margin: 10px;
     text-align: right;
+}
+.div-center {
+    margin: 10px;
+    text-align: center;
 }
 #flex-container{
     display: flex;
     flex-direction: row;
+}
+#flex-col{
+    display: flex;
+    flex-direction: column;
 }
 
 
