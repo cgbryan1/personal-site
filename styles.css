@@ -2,6 +2,7 @@
     margin-left: 10px;
     margin-right: 10px;
     background-color: #FFF3C7;
+    font-family: "Poppins";
 }
 
 p {
@@ -50,7 +51,6 @@ h5 {
     justify-content: space-evenly;
     align-items: center;
     margin: 40px 40px 10px 40px;
-
 }
 #flex-col p{
     display: flex;
